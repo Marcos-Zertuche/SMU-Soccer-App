@@ -6,9 +6,10 @@ import TitleSlider from './TitleSlider';
 export default function TitleBar(titleBarProps: TitleBarProps) {
     const [gender, setGender] = useState(GenderType.male);
   return (
-    <div>
-        <MainTitle/>
-        <TitleSlider gender={gender} setGender={setGender}/>
+    <div className='titleBar'>
+        <MainTitle />
+       
+        
     </div>
   )
 }
