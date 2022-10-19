@@ -1,4 +1,4 @@
-import { TitleBarSlider } from '../../types';
+import { TitleBarSlider } from "../../../types";
 import { ToggleSlider }  from "react-toggle-slider";
 import './title.css'
 

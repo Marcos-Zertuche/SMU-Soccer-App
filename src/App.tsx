@@ -1,9 +1,13 @@
-import TitleBar from "./components/title/TitleBar";
+import TitleBar from "./components/Title/TitleBar/TitleBar";
+import NextGame from "./components/Body/NextGame";
 
 
 function App() {
   return (
-    <TitleBar title='SomeTitle'/>
+    <><TitleBar title='SomeTitle' />
+    <NextGame /></>
+    
+
   );
 }
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { GenderType, TitleBarProps } from '../../types';
+import { GenderType , TitleBarProps} from '../../../types';
 import MainTitle from './MainTitle';
 import TitleSlider from './TitleSlider';
 
