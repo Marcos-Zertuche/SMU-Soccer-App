@@ -16,6 +16,7 @@ code {
 }
 .titleBar{
     background-color: red;
+    text-align: center;
     width: 100%;
     display: flex;
 }
@@ -24,17 +25,8 @@ code {
   font-size: 70px;
   font-style: italic; 
   color: white;
-  margin: auto;
   padding: 10px;
-  text-align: center;
-  display: flex;
-  flex-flow: flex-wrap;
-  width: 100%;
-  
-}
-
-.mainTitle {
-  width: 100%;
+  flex: 2 1 0px
 }
 
 .titleSlider {
@@ -42,7 +34,10 @@ code {
     font-family: 'Prompt';
     color: white;
     display: flex;
-    align-self: center;
-    column-gap: 8px;
-    position: sticky;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.titleSliderText {
+  padding: 5px;
 }

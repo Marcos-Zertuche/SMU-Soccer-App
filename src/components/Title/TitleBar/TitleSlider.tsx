@@ -4,10 +4,10 @@ import './title.css'
 
 export default function TitleSlider(props: TitleBarSlider) {
   return (
-    <div className='titleSlider'>
-      <div>M</div>
-      <ToggleSlider/>
-      <div>W</div>
-    </div>
+      <div className='titleSlider'>
+        <span className='titleSliderText'>M</span>
+        <ToggleSlider/>
+        <span className='titleSliderText'>W</span>
+      </div>
   )
 }
